@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+
+  snow-taxi-service:
+    container_name: snow-taxi-service
+    image: kelly1422/snowtaxi-dev
+    expose:
+      - 8080
+    ports:
+      - 8080:8080
